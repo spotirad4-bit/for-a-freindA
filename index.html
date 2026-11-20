@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday, Nour! ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <canvas id="confetti-canvas"></canvas>
+  <div class="ambient-glow"></div>
+
+  <main class="container">
+    <section class="hero-card" id="card">
+      <div class="badge">✨ Today is all about you ✨</div>
+      
+      <h1 class="title">Happy Birthday,<br><span class="highlight">Nour</span></h1>
+      
+      <p class="subtitle">
+        "Nour" means light—and today is a celebration of the warmth, energy, and brilliance you bring into the world.
+      </p>
+
+      <!-- Interactive Cake & Candle -->
+      <div class="cake-container" id="cake-trigger" title="Click the flame to make a wish!">
+        <div class="candle">
+          <div class="flame" id="flame"></div>
+          <div class="smoke" id="smoke"></div>
+        </div>
+        <div class="cake-top"></div>
+        <div class="cake-base"></div>
+        <p class="hint" id="wish-hint">Tap the candle flame to make a wish</p>
+      </div>
+
+      <div class="message-box" id="message-box">
+        <p>
+          Wishing you a truly <strong>fantastic day</strong> filled with laughter, unforgettable moments, and everything that makes you smile.
+        </p>
+        <p>
+          May the year ahead—and every chapter after it—lead you toward a <strong>glorious life</strong> overflowing with success, peace, adventure, and boundless joy.
+        </p>
+      </div>
+
+      <div class="actions">
+        <button class="btn primary" id="celebrate-btn">🎉 Celebrate Nour</button>
+        <button class="btn secondary" id="wishes-btn">✨ Reveal a Wish</button>
+      </div>
+
+      <div class="extra-wish" id="extra-wish"></div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
